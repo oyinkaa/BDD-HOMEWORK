@@ -14,7 +14,7 @@ public class BrowserFactory {
 		
 		// First step is to set up the browser
 		
-		System.setProperty("webdriver.chrome.driver", "drivers/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "driver/chromedriver");
 		driver = new ChromeDriver();
 		driver.get("https://techfios.com/billing/?ng=admin/");
 		driver.manage().deleteAllCookies();
@@ -28,4 +28,4 @@ public class BrowserFactory {
 		driver.close();
 		driver.quit();
 	}
-}
+} 

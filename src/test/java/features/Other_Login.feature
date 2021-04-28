@@ -10,4 +10,6 @@ Scenario Outline: User should be able to login with valid credentials
 	Then User should land on Dashboard page 
 	Examples: 
 		| username			| password	|
-		| demo@techfios.com	| abc123	|
+		| demo@techfios.com	| abc123	| 
+		
+		

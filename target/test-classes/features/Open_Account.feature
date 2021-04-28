@@ -3,7 +3,7 @@ Feature: Open a new account using scenario outline
 
 Scenario Outline: User should be able to open a new account 
 	When User enters "<username>" and "<password>"   
-	And User clicks on SignIn button 
+	And User clicks on SignIn button   
 	Then User should land on Dashboard page 
 	And User click on Bank and Cash 
 	And User clicks on new Account

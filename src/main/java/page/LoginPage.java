@@ -1,7 +1,5 @@
 package page;
 
-import org.testng.Assert;
-import org.testng.AssertJUnit;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -14,8 +12,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage extends BasePage {
 	// Third step is to define the page
